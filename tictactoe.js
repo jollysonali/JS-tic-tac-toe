@@ -69,11 +69,11 @@ function canvasClicked(canvasNumber){
             content[canvasNumber] = 'X';
         }
         else{
-            cxt.beginPath();
-            cxt.arc(25,25,8,0,Math.PI*2,true);
-            cxt.stroke();
-            cxt.closePath();
-            content[canvasNumber] = 'O';
+          cxt.beginPath();
+          cxt.arc(25,25,8,0,Math.PI*2,true);
+          cxt.stroke();
+          cxt.closePath();
+          content[canvasNumber] = 'O';
         }
 
         turn++;
